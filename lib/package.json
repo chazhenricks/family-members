@@ -18,6 +18,7 @@
   "homepage": "",
   "devDependencies": {
     "browserify": "^14.3.0",
+    "firebase": "^4.0.0",
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.0.0",
     "grunt-contrib-concat": "^1.0.1",

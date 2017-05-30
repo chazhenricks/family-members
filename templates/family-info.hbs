@@ -1,0 +1,16 @@
+{{#each family}}
+  <tr>
+    <td>{{name}}</td>
+    <td>{{age}}</td>
+    <td>{{gender}}</td>
+    <td>
+    {{#each skills}}
+      {{this}}
+      {{#unless @last}}
+      ,
+    {{/unless}}
+    {{/each}}
+    </td>
+    <td><button data-delete-id="{{id}}" type="button" id="table-delete-btn">Disown</button>
+  </tr>
+{{/each}}
